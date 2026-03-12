@@ -1,0 +1,140 @@
+body {
+    display: flex;
+    margin: 0;
+}
+
+@font-face {
+    font-family: norse;
+    src: url("Norse-Bold.otf");
+}
+
+#lh-side {
+    margin: 0;
+    display: flex;
+    position: relative;
+    width: 50%;
+}
+
+img {
+    width: 100%;
+    margin: 0;
+}
+
+#image-credit {
+    position: absolute;
+    bottom: 0%;
+    color: white;
+    left: 25%;
+    opacity: 85%;
+}
+
+#logo-section {
+    background-color: #010b12a6;
+    height: 140px;
+    width: 100%;
+    position: absolute;
+    top: 29.6%;
+    left: 0%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#logo-section div {
+    width: fit-content;
+}
+
+#logo-section div:nth-of-type(2) {
+    width: fit-content;
+    height: fit-content;
+    align-self: center;
+}
+
+#logo {
+    height: 90%;
+    width: auto;
+    position: absolute;
+    top: 5%;
+    opacity: 100%;
+}
+
+h1{
+    color: white;
+    font-size: 110px;
+    font-family: norse, Optima;
+}
+
+#lh-side > a:visited {
+    color: white;
+}
+
+#rh-side {
+    width: 85%;
+    font-family: Optima;
+    background-color: #f9fafb;
+}
+
+h2 {
+    padding: 60px 100px 0px 60px;
+}
+
+#rh-top > p {
+    padding-bottom: 30px;
+    font-size: 21px;
+    padding-left: 60px;
+}
+
+#rh-middle {
+    margin-bottom: 40px;
+    background-color: white;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    box-shadow: 2px 2px 5px lightslategrey;
+}
+
+h3 {
+    padding-left: 60px;
+}
+
+.form-row {
+    width: 50%;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 60px;
+}
+
+.single-input {
+    width: 50%;
+    margin-right: 100px;
+}
+
+input {
+    border-radius: 5px;
+    border-width: 1.3px;
+    margin-top: 1.5px;
+    height: 24px;
+    width: 220px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #0101da;
+    box-shadow: 2px 2px 2px lightgray;
+}
+
+input[type="password"]:invalid {
+    border-color: red;
+}
+
+#rh-bottom {
+    padding-left: 60px;
+}
+button {
+    padding: 8px 40px;
+    font-size: 17px;
+    background-color: #49646a;
+    color: whitesmoke;
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px lightgray;
+    margin-left: 60px;
+}

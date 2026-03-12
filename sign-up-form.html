@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="sign-up-form-styles.css">
+</head>
+<body>
+<div id="lh-side">
+    <img src="casey-horner-RmoWqDCqN2E-unsplash.jpg" alt="Timelapse image of stars in the night sky">
+    <div id="logo-section">
+        <div><img id="logo" src="odin-lined.png" alt="Logo of The Odin Project"></div>
+        <div><h1>ODIN</h1></div>
+    </div>
+    <p id="image-credit">Photo by <a  href="https://unsplash.com/@mischievous_penguins" style="color:white" target="_blank">Casey Horner</a> on <a href="https://unsplash.com/" style="color:white" target="_blank">Unsplash</a></p>
+</div>
+<div id="rh-side">
+<div id="rh-top">
+    <h2>Here is some generic text to go with this demo sign-up form.
+        It serves no real purpose except to add more to the page.</h2>
+    <p>Now let's get to that form...</p>
+</div>
+<form action="" method="post">
+    <div id="rh-middle">
+        <h3>Form time!</h3>
+        <div class="form-row">
+            <div class="single-input">
+            <label for="first-name">FIRST NAME</label>
+            <input type="text" id="first-name" name="first-name">
+            </div>
+            <div class="single-input">
+            <label for="last-name">LAST NAME</label>
+            <input type="text" id="last-name" name="last-name">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="single-input">
+                <label for="email-address">EMAIL</label>
+                <input type="email" id="email-address" name="email-address">
+                </div>
+            <div class="single-input">
+            <label for="phone-number">PHONE NUMBER</label>
+            <input type="number" id="phone-number" name="phone-number">
+                </div>
+        </div>
+        <div class="form-row">
+            <div class="single-input">
+                <label for="user-password">PASSWORD</label>
+                <input type="password" id="user-password" name="password" required minlength="6">
+                </div>
+            <div class="single-input">
+                <label for="confirm-password">CONFIRM PASSWORD</label>
+                <input type="password" id="confirm-password" name="confirm-password" required minlength="6">
+                </div>
+        </div>
+    </div>
+    <button type="submit">Create account</button>
+<div id="rh-bottom">
+    <p>Already have an account? <a href="" style="color: #49646a; font-weight: bold" >Log in</a></p>
+</div>
+</form>
+</div>
+</body>
+</html>
